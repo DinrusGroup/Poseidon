@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+	<customtools last="DMD (File based dir)">
+		<tool name="Explorer" savefirst="0" hideWnd="0" capture="0" dir="" cmd="explorer.exe" args="/n, /select,$(ItemPath)" />
+		<tool name="Ultra Edit" savefirst="1" hideWnd="0" capture="0" dir="" cmd="uedit32.exe" args="$(ItemPath)/$(CurLine)" />
+		<tool name="D Builder (File based dir)" savefirst="1" hideWnd="1" capture="1" dir="$(ItemDir)" cmd="build.exe" args="$(ItemPath) -gui -clean -unittest -debug -g -full -w -version=OLE_COM -nolink -nolib" />
+		<tool name="D Builder (Project based dir)" savefirst="1" hideWnd="1" capture="1" dir="$(ProjectDir)" cmd="build.exe" args="$(ProjectMainFile) -gui -unittest -release -O -inline -full -w -clean -Xdwt -version=OLE_COM" />
+		<tool name="DMD (File based dir)" savefirst="1" hideWnd="1" capture="1" dir="$(ItemDir)" cmd="dmd.exe" args="$(ItemPath) -debug -g -c -unittest -w -version=OLE_COM" />
+		<tool name="DMD (Project based dir)" savefirst="1" hideWnd="1" capture="1" dir="$(ProjectDir)" cmd="D:\DMD1027Tango\bin\dmd.exe" args="$(ProjectAll)" />
+		<tool name="Preview in Web Browser" savefirst="1" hideWnd="0" capture="0" dir="" cmd="explorer.exe" args="$(ItemPath)" />
+		<tool name="Build Project with Bat File" savefirst="1" hideWnd="0" capture="1" dir="$(ProjectDir)" cmd="C:\projects\poseidon\run-build.bat" args="" />
+		<tool name="Execute Project Output" savefirst="1" hideWnd="0" capture="0" dir="$(ProjectDir)" cmd="$(ProjectName).exe" args="" />
+		<tool name="emacs" savefirst="1" hideWnd="0" capture="0" dir="" cmd="C:\emacs\emacs-21.3\bin\runemacs.exe" args="$(ItemPath)" />
+	</customtools>
+	<hotkeys>
+		<key name="uppercase" mask="393216" code="117" mask_def="393216" code_def="117" comment="CTRL+SHIFT+U" />
+		<key name="undo" mask="262144" code="122" mask_def="262144" code_def="122" comment="CTRL+Z" />
+		<key name="toggle_comment" mask="262144" code="113" mask_def="262144" code_def="113" comment="CTRL+Q" />
+		<key name="stream_comment" mask="393216" code="113" mask_def="393216" code_def="113" comment="CTRL+SHIFT+Q" />
+		<key name="select_all" mask="262144" code="97" mask_def="262144" code_def="97" comment="CTRL+A" />
+		<key name="search" mask="262144" code="104" mask_def="262144" code_def="104" comment="CTRL+H" />
+		<key name="save_allfiles" mask="393216" code="115" mask_def="393216" code_def="115" comment="CTRL+S" />
+		<key name="save" mask="262144" code="115" mask_def="262144" code_def="115" comment="CTRL+S" />
+		<key name="run_project" mask="0" code="16777230" mask_def="0" code_def="16777230" comment="CTRL+B" />
+		<key name="redo" mask="393216" code="122" mask_def="393216" code_def="122" comment="CTRL+Y" />
+		<key name="rebuild_project" mask="0" code="16777235" mask_def="0" code_def="16777235" comment="CTRL+M" />
+		<key name="paste" mask="262144" code="118" mask_def="262144" code_def="118" comment="CTRL+V" />
+		<key name="nest_comment" mask="262144" code="110" mask_def="262144" code_def="110" comment="CTRL+B" />
+		<key name="nav_forward" mask="262144" code="16777230" mask_def="0" code_def="16777230" comment="F5" />
+		<key name="nav_back" mask="262144" code="16777231" mask_def="0" code_def="16777231" comment="F6" />
+		<key name="mark_toggle" mask="262144" code="16777234" mask_def="0" code_def="16777234" comment="F9" />
+		<key name="mark_prev" mask="262144" code="16777233" mask_def="0" code_def="16777233" comment="F8" />
+		<key name="mark_next" mask="262144" code="16777232" mask_def="0" code_def="16777232" comment="F7" />
+		<key name="lowercase" mask="262144" code="117" mask_def="262144" code_def="117" comment="CTRL+U" />
+		<key name="line_swap" mask="262144" code="116" mask_def="262144" code_def="116" comment="CTRL+T" />
+		<key name="line_dup" mask="393216" code="108" mask_def="393216" code_def="108" comment="CTRL+SHIFT+L" />
+		<key name="line_del" mask="262144" code="100" mask_def="262144" code_def="100" comment="CTRL+D" />
+		<key name="line_cut" mask="262144" code="108" mask_def="262144" code_def="108" comment="CTRL+L" />
+		<key name="line_copy" mask="393216" code="116" mask_def="393216" code_def="116" comment="CTRL+SHIFT+T" />
+		<key name="jump_to_defintion" mask="65536" code="103" mask_def="65536" code_def="103" comment="ALT+G" />
+		<key name="goto_line" mask="262144" code="103" mask_def="262144" code_def="103" comment="CTRL+G" />
+		<key name="force_complete" mask="262144" code="101" mask_def="262144" code_def="101" comment="CTRL+E" />
+		<key name="find_forward" mask="0" code="16777228" mask_def="0" code_def="16777228" comment="F3" />
+		<key name="find_back" mask="0" code="16777229" mask_def="0" code_def="16777229" comment="F4" />
+		<key name="find" mask="262144" code="102" mask_def="262144" code_def="102" comment="CTRL+F" />
+		<key name="document4" mask="262144" code="16777236" mask_def="262144" code_def="16777236" comment="CTRL+B" />
+		<key name="document3" mask="262144" code="16777226" mask_def="262144" code_def="16777226" comment="CTRL+B" />
+		<key name="document2" mask="0" code="16777237" mask_def="0" code_def="16777237" comment="CTRL+B" />
+		<key name="document1" mask="0" code="16777236" mask_def="0" code_def="16777236" comment="CTRL+B" />
+		<key name="document0" mask="0" code="16777226" mask_def="0" code_def="16777226" comment="CTRL+B" />
+		<key name="debug_stop" mask="131072" code="16777235" mask_def="131072" code_def="16777235" comment="CTRL+M" />
+		<key name="debug_run" mask="131072" code="16777229" mask_def="131072" code_def="16777229" comment="CTRL+M" />
+		<key name="debug_return" mask="131072" code="16777228" mask_def="131072" code_def="16777228" comment="CTRL+M" />
+		<key name="debug_project" mask="0" code="16777233" mask_def="0" code_def="16777233" comment="CTRL+M" />
+		<key name="debug_over" mask="131072" code="16777227" mask_def="131072" code_def="16777227" comment="CTRL+M" />
+		<key name="debug_in" mask="131072" code="16777226" mask_def="131072" code_def="16777226" comment="CTRL+M" />
+		<key name="debug_clean_bps" mask="131072" code="16777234" mask_def="131072" code_def="16777234" comment="CTRL+M" />
+		<key name="debug_build_project" mask="131072" code="16777233" mask_def="131072" code_def="16777233" comment="CTRL+M" />
+		<key name="cut" mask="262144" code="120" mask_def="262144" code_def="120" comment="CTRL+X" />
+		<key name="copy" mask="262144" code="99" mask_def="262144" code_def="99" comment="CTRL+C" />
+		<key name="compile" mask="0" code="16777232" mask_def="0" code_def="16777232" comment="CTRL+M" />
+		<key name="close_file" mask="262144" code="119" mask_def="262144" code_def="119" comment="CTRL+W" />
+		<key name="buildtool" mask="131072" code="16777232" mask_def="131072" code_def="16777232" comment="CTRL+M" />
+		<key name="build_run_project" mask="131072" code="16777230" mask_def="131072" code_def="16777230" comment="CTRL+M" />
+		<key name="build_project" mask="0" code="16777234" mask_def="0" code_def="16777234" comment="CTRL+M" />
+		<key name="box_comment" mask="262144" code="98" mask_def="262144" code_def="98" comment="CTRL+B" />
+	</hotkeys>
+	<recentprjs>
+		<prj dir="C:\dmd\poseidon" name="Poseidon" />
+		<prj dir="C:\dmd\dwt-win" name="dwt" />
+		<prj dir="C:\dmd\src\bud" name="bud" />
+		<prj dir="C:\dm\imp\rulada\auxes\pkg\ak" name="ak" />
+	</recentprjs>
+	<editorsettings>
+		<global tabwidth="4" tabIndents="4" showlinenumber="1" showbookmark="1" showfoldingmargin="1" showindentationguides="1" wrapmode="0" tabAsSpace="0" curlinehilight="1" clcurline="8454143" clFoldingMargin="13160660" clCursor="0" clLineNumFore="0" clLineNumBack="13160660" clselfore="16777215" clselback="6956042" />
+		<fontstyle id="32" name="STYLE_DEFAULT" value="ft:Courier New|fg:0|bg:16777215|sz:10|b:0|i:0|u:0" defvalue="ft:Courier New|fg:0|bg:16777215|sz:11|b:0|i:0|u:0" />
+		<outputstyle id="" name="" value="ft:Book Antiqua|fg:0|bg:16777215|sz:8|b:0|i:0|u:0" defvalue="ft:Tahoma|fg:0|bg:16777215|sz:8|b:0|i:0|u:0" />
+		<searchstyle id="" name="" value="ft:Book Antiqua|fg:0|bg:16777215|sz:8|b:0|i:0|u:0" defvalue="ft:Tahoma|fg:0|bg:16777215|sz:10|b:0|i:0|u:0" />
+	</editorsettings>
+	<ide showsplash="0" loadworkspaceatstart="0" isshellmaximized="1" shellbounds="-4 -4 1032 746" desktopweight="119 880 928 71 0 0" sendabspath="1" document="" explorerfilters="*.c;*.cpp;*.h;*.xml;*.txt;*.def" />
+	<recentdir name="C:\dm\imp\rulada\auxes\pkg\ak" />
+	<language value="english" />
+	<compilersetting>
+		<DMD path="c:\dm\bin\dmd.exe" />
+		<DMC path="c:\dm\bin\dmc.exe" />
+		<BUD path="c:\dm\bin\bud.exe" />
+		<DEBUGGER path="c:\dm\bin\windbg.exe" />
+		<BUILDTYPE thread="1" />
+		<output wrap="64" />
+		<debuggerSearch path="C:\dm\imp\rulada" />
+	</compilersetting>
+	<parsersetting>
+		<codecompletion use="1" onlybrowser="0" auto="0" all="0" live="1" livefull="0" member="0" showtype="0" jumptop="0" casesensitive="0" lettercount="3" defaultparser="0" backgroundload="1" autoshow="1" ed="0" el="0" version="2" />
+		<defaultparserpaths />
+	</parsersetting>
+</config>

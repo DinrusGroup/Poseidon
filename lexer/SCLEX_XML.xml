@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+	<lexer name="SCLEX_XML">
+		<styles>
+			<styles id="32" name="STYLE_DEFAULT" value="ft:|fg:0|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:-1|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="12" name="SCE_H_XMLSTART" value="ft:|fg:10040115|bg:-1|sz:0|b:0|i:1|u:0" defvalue="ft:|fg:10040115|bg:-1|sz:0|b:0|i:1|u:0" />
+			<styles id="13" name="SCE_H_XMLEND" value="ft:|fg:-1|bg:-1|sz:0|b:0|i:1|u:0" defvalue="ft:|fg:-1|bg:-1|sz:0|b:0|i:1|u:0" />
+			<styles id="0" name="SCE_H_DEFAULT" value="ft:|fg:-1|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:-1|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="9" name="SCE_H_COMMENT" value="ft:|fg:32768|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:32768|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="5" name="SCE_H_NUMBER" value="ft:|fg:6697881|bg:-1|sz:0|b:1|i:0|u:0" defvalue="ft:|fg:6697881|bg:-1|sz:0|b:1|i:0|u:0" />
+			<styles id="6" name="SCE_H_DOUBLESTRING" value="ft:|fg:8388736|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:8388736|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="7" name="SCE_H_SINGLESTRING" value="ft:|fg:8388736|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:8388736|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="1" name="SCE_H_TAG" value="ft:|fg:16711680|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:16711680|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="11" name="SCE_H_TAGEND" value="ft:|fg:16711680|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:16711680|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="2" name="SCE_H_TAGUNKNOWN" value="ft:|fg:16711680|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:16711680|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="3" name="SCE_H_ATTRIBUTE" value="ft:|fg:0|bg:-1|sz:0|b:1|i:0|u:0" defvalue="ft:|fg:32768|bg:-1|sz:0|b:1|i:0|u:0" />
+			<styles id="4" name="SCE_H_ATTRIBUTEUNKNOWN" value="ft:|fg:0|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:16711680|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="21" name="SCE_H_SGML_DEFAULT" value="ft:|fg:0|bg:-1|sz:0|b:1|i:0|u:0" defvalue="ft:|fg:0|bg:-1|sz:0|b:1|i:0|u:0" />
+			<styles id="17" name="SCE_H_CDATA" value="ft:|fg:8388736|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:8388736|bg:-1|sz:0|b:0|i:0|u:0" />
+		</styles>
+	</lexer>
+</config>

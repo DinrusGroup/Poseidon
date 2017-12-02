@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<searchhistory>
+	<history>
+		<find>
+			<a b="MemberInfo" />
+			<a b="tango.io.TempFile" />
+			<a b="tamgo.io.TempFile" />
+			<a b="io.TempFile" />
+		</find>
+		<replace />
+	</history>
+	<option bcase="1" bword="1" bregexp="0" scope="0" />
+</searchhistory>

@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<projectDescription>
+	<style>0</style>
+	<name>Poseidon</name>
+	<targetName>Test</targetName>
+	<comment>Poseidon is an open source D file editor written using DWT.</comment>
+	<filter>*.d</filter>
+	<showemptyfolder>0</showemptyfolder>
+	<buildSpec>
+		<buildType>0</buildType>
+		<mainFile>poseidon\poseidon.d</mainFile>
+		<Args />
+		<options>
+			<dmd> -inline -O -odobjs -release -L/SUBSYSTEM:windows:4 </dmd>
+			<tool />
+			<lib />
+			<implib />
+			<extra>-version=OLE_COM</extra>
+			<toolextra />
+			<merge>0</merge>
+			<nonfiles>0</nonfiles>
+			<useimplib>0</useimplib>
+			<mapfile>0</mapfile>
+			<gcstub>0</gcstub>
+		</options>
+		<dmdpath />
+		<dmcpath />
+		<buildtoolexe />
+		<projectFiles>
+			<source>
+				<name>ak\xml\coreXML.d</name>
+				<name>ak\xml\service.d</name>
+				<name>CodeAnalyzer\lexical\coreLex.d</name>
+				<name>CodeAnalyzer\lexical\identifiersLex.d</name>
+				<name>CodeAnalyzer\lexical\module_file.d</name>
+				<name>CodeAnalyzer\lexical\numbers.d</name>
+				<name>CodeAnalyzer\lexical\operators.d</name>
+				<name>CodeAnalyzer\lexical\strings.d</name>
+				<name>CodeAnalyzer\lexical\token.d</name>
+				<name>CodeAnalyzer\lexical\token_enum.d</name>
+				<name>CodeAnalyzer\lexical\token_tables.d</name>
+				<name>CodeAnalyzer\lexical\tokenized_module.d</name>
+				<name>CodeAnalyzer\lexical\whitespace.d</name>
+				<name>CodeAnalyzer\syntax\aggregates.d</name>
+				<name>CodeAnalyzer\syntax\attributes.d</name>
+				<name>CodeAnalyzer\syntax\baseExpressions.d</name>
+				<name>CodeAnalyzer\syntax\conditionalCompilation.d</name>
+				<name>CodeAnalyzer\syntax\core.d</name>
+				<name>CodeAnalyzer\syntax\declarations.d</name>
+				<name>CodeAnalyzer\syntax\decldefs.d</name>
+				<name>CodeAnalyzer\syntax\expressions.d</name>
+				<name>CodeAnalyzer\syntax\headers.d</name>
+				<name>CodeAnalyzer\syntax\identifiers.d</name>
+				<name>CodeAnalyzer\syntax\initializers.d</name>
+				<name>CodeAnalyzer\syntax\node.d</name>
+				<name>CodeAnalyzer\syntax\nodeHsu.d</name>
+				<name>CodeAnalyzer\syntax\parsed_module.d</name>
+				<name>CodeAnalyzer\syntax\rule.d</name>
+				<name>CodeAnalyzer\syntax\statements.d</name>
+				<name>CodeAnalyzer\syntax\templates.d</name>
+				<name>CodeAnalyzer\syntax\terminal.d</name>
+				<name>CodeAnalyzer\syntax\tokenScanner.d</name>
+				<name>CodeAnalyzer\utilCA\scanner.d</name>
+				<name>CodeAnalyzer\utilCA\string.d</name>
+				<name>CodeAnalyzer\utilCA\textScanner.d</name>
+				<name>CodeAnalyzer\utilCA\treeUtil.d</name>
+				<name>poseidon\controller\actionmanager.d</name>
+				<name>poseidon\controller\bottompanel.d</name>
+				<name>poseidon\controller\debugcontrol\debugger.d</name>
+				<name>poseidon\controller\debugcontrol\debugPanel.d</name>
+				<name>poseidon\controller\debugcontrol\debugparser.d</name>
+				<name>poseidon\controller\debugcontrol\pipe.d</name>
+				<name>poseidon\controller\debugcontrol\watch.d</name>
+				<name>poseidon\controller\dialog\aboutbox.d</name>
+				<name>poseidon\controller\dialog\askreloaddlg.d</name>
+				<name>poseidon\controller\dialog\customtool.d</name>
+				<name>poseidon\controller\dialog\finddlg.d</name>
+				<name>poseidon\controller\dialog\generaldialog.d</name>
+				<name>poseidon\controller\dialog\searchdlg.d</name>
+				<name>poseidon\controller\dialog\splash.d</name>
+				<name>poseidon\controller\edititem.d</name>
+				<name>poseidon\controller\editor.d</name>
+				<name>poseidon\controller\filelist.d</name>
+				<name>poseidon\controller\gui.d</name>
+				<name>poseidon\controller\imagecombo.d</name>
+				<name>poseidon\controller\menumanager.d</name>
+				<name>poseidon\controller\outline.d</name>
+				<name>poseidon\controller\packageexplorer.d</name>
+				<name>poseidon\controller\property\compilerpage.d</name>
+				<name>poseidon\controller\property\dpage.d</name>
+				<name>poseidon\controller\property\editorpage.d</name>
+				<name>poseidon\controller\property\fontstylegroup.d</name>
+				<name>poseidon\controller\property\generalpage.d</name>
+				<name>poseidon\controller\property\ipropertypage.d</name>
+				<name>poseidon\controller\property\parserpage.d</name>
+				<name>poseidon\controller\property\preference.d</name>
+				<name>poseidon\controller\property\prjproperty.d</name>
+				<name>poseidon\controller\property\shortcutpage.d</name>
+				<name>poseidon\controller\scintillaex.d</name>
+				<name>poseidon\controller\statusbar.d</name>
+				<name>poseidon\controller\toolbarmanager.d</name>
+				<name>poseidon\globals.d</name>
+				<name>poseidon\i18n\i18nshop.d</name>
+				<name>poseidon\i18n\itranslatable.d</name>
+				<name>poseidon\i18n\translation.d</name>
+				<name>poseidon\intellisense\autocomplete.d</name>
+				<name>poseidon\intellisense\search.d</name>
+				<name>poseidon\loader.d</name>
+				<name>poseidon\model\editorsettings.d</name>
+				<name>poseidon\model\executer.d</name>
+				<name>poseidon\model\misc.d</name>
+				<name>poseidon\model\navcache.d</name>
+				<name>poseidon\model\project.d</name>
+				<name>poseidon\poseidon.d</name>
+				<name>poseidon\style\dstyle.d</name>
+				<name>poseidon\style\stylefactory.d</name>
+				<name>poseidon\style\stylekeeper.d</name>
+				<name>poseidon\style\xmlstyle.d</name>
+				<name>poseidon\style\xpm.d</name>
+				<name>poseidon\util\fileutil.d</name>
+				<name>poseidon\util\iniloader.d</name>
+				<name>poseidon\util\layoutshop.d</name>
+				<name>poseidon\util\miscutil.d</name>
+				<name>poseidon\util\waitcursor.d</name>
+				<name>poseidon\util\xmlutil.d</name>
+			</source>
+			<interface />
+			<resource>
+				<name>poseidon.res</name>
+			</resource>
+			<othersDMD />
+			<others />
+		</projectFiles>
+		<includePaths>
+			<name>D:\DMD1028\dmd\import</name>
+		</includePaths>
+		<linkLibrarys />
+		<importExpressions />
+	</buildSpec>
+</projectDescription>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+	<lexer name="SCLEX_D">
+		<keywords>
+			<keywords id="0" value="void byte bool ubyte short ushort int uint long ulong cent ucent float double real ifloat idouble ireal cfloat cdouble creal char wchar dchar body asm bool true false function delegate" />
+			<keywords id="1" value="public private protected with extern " />
+			<keywords id="2" value="final abstract override const debug version pragma public private deprecated protected volatile" />
+			<keywords id="3" value="class struct interface enum new this null delete invariant super union template" />
+			<keywords id="4" value="if for foreach while do assert return unittest try catch else throw switch case break continue default finally goto synchronized" />
+			<keywords id="5" value="is import module alias typedef with cast package typeof typeid classinfo mixin" />
+			<keywords id="6" value="in out const static inout lazy ref extern export auto align scope pure" />
+		</keywords>
+		<styles>
+			<styles id="32" name="STYLE_DEFAULT" value="ft:|fg:0|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:-1|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="0" name="SCE_D_DEFAULT" value="ft:|fg:-1|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:-1|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="1" name="SCE_D_COMMENT" value="ft:|fg:32768|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:32768|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="2" name="SCE_D_COMMENTLINE" value="ft:|fg:32768|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:32768|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="3" name="SCE_D_COMMENTDOC" value="ft:|fg:32768|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:32768|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="4" name="SCE_D_NUMBER" value="ft:|fg:8421376|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:8421376|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="5" name="SCE_D_WORD" value="ft:|fg:16711680|bg:-1|sz:0|b:1|i:0|u:0" defvalue="ft:|fg:16711680|bg:-1|sz:0|b:1|i:0|u:0" />
+			<styles id="6" name="SCE_D_STRING" value="ft:|fg:8388736|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:8388736|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="7" name="SCE_D_CHARACTER" value="ft:|fg:-1|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:-1|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="8" name="SCE_D_UUID" value="ft:|fg:-1|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:-1|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="9" name="SCE_D_PREPROCESSOR" value="ft:|fg:32768|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:32768|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="10" name="SCE_D_OPERATOR" value="ft:|fg:32896|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:32896|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="11" name="SCE_D_IDENTIFIER" value="ft:|fg:0|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:0|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="12" name="SCE_D_STRINGEOL" value="ft:|fg:-1|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:-1|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="13" name="SCE_D_VERBATIM" value="ft:|fg:-1|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:-1|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="14" name="SCE_D_REGEX" value="ft:|fg:-1|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:-1|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="15" name="SCE_D_COMMENTLINEDOC" value="ft:|fg:32768|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:32768|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="16" name="SCE_D_WORD2" value="ft:|fg:10040115|bg:-1|sz:0|b:1|i:0|u:0" defvalue="ft:|fg:10040115|bg:-1|sz:0|b:1|i:0|u:0" />
+			<styles id="17" name="SCE_D_VERBATIMTICK" value="ft:|fg:8388736|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:8388736|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="18" name="SCE_D_COMMENTDOCKEYWORDERROR" value="ft:|fg:-1|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:-1|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="19" name="SCE_D_GLOBALCLASS" value="ft:|fg:-1|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:-1|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="20" name="SCE_D_WORD3" value="ft:|fg:33023|bg:-1|sz:0|b:1|i:0|u:0" defvalue="ft:|fg:32768|bg:-1|sz:0|b:1|i:0|u:0" />
+			<styles id="21" name="SCE_D_WORD4" value="ft:|fg:6697881|bg:-1|sz:0|b:1|i:0|u:0" defvalue="ft:|fg:6697881|bg:-1|sz:0|b:1|i:0|u:0" />
+			<styles id="22" name="SCE_D_WORD5" value="ft:|fg:8421376|bg:-1|sz:0|b:1|i:0|u:0" defvalue="ft:|fg:8421376|bg:-1|sz:0|b:1|i:0|u:0" />
+			<styles id="23" name="SCE_D_WORD6" value="ft:|fg:26367|bg:-1|sz:0|b:1|i:0|u:0" defvalue="ft:|fg:26367|bg:-1|sz:0|b:1|i:0|u:0" />
+			<styles id="24" name="SCE_D_WORD7" value="ft:|fg:4210816|bg:-1|sz:0|b:1|i:0|u:0" defvalue="ft:|fg:43520|bg:-1|sz:0|b:1|i:0|u:0" />
+			<styles id="25" name="SCE_D_WORD8" value="ft:|fg:16711680|bg:-1|sz:0|b:1|i:0|u:0" defvalue="ft:|fg:32768|bg:-1|sz:0|b:1|i:0|u:0" />
+			<styles id="26" name="SCE_D_WORD9" value="ft:|fg:32896|bg:-1|sz:0|b:1|i:0|u:0" defvalue="ft:|fg:32768|bg:-1|sz:0|b:1|i:0|u:0" />
+			<styles id="27" name="SCE_D_NESTCOMMENT" value="ft:|fg:32768|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:32768|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="28" name="SCE_D_NESTCOMMENT1" value="ft:|fg:32768|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:32768|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="29" name="SCE_D_NESTCOMMENT2" value="ft:|fg:32768|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:32768|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="30" name="SCE_D_NESTCOMMENT3" value="ft:|fg:32768|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:32768|bg:-1|sz:0|b:0|i:0|u:0" />
+			<styles id="31" name="SCE_D_NESTCOMMENT4" value="ft:|fg:32768|bg:-1|sz:0|b:0|i:0|u:0" defvalue="ft:|fg:32768|bg:-1|sz:0|b:0|i:0|u:0" />
+		</styles>
+	</lexer>
+</config>
