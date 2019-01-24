@@ -77,9 +77,9 @@
 		<outputstyle id="" name="" value="ft:Book Antiqua|fg:0|bg:16777215|sz:8|b:0|i:0|u:0" defvalue="ft:Tahoma|fg:0|bg:16777215|sz:8|b:0|i:0|u:0" />
 		<searchstyle id="" name="" value="ft:Book Antiqua|fg:0|bg:16777215|sz:8|b:0|i:0|u:0" defvalue="ft:Tahoma|fg:0|bg:16777215|sz:10|b:0|i:0|u:0" />
 	</editorsettings>
-	<ide showsplash="0" loadworkspaceatstart="0" isshellmaximized="1" shellbounds="-4 -4 1032 746" desktopweight="119 880 928 71 0 0" sendabspath="1" document="" explorerfilters="*.c;*.cpp;*.h;*.xml;*.txt;*.def" />
+	<ide showsplash="0" loadworkspaceatstart="0" isshellmaximized="1" shellbounds="-8 -8 1040 754" desktopweight="119 880 928 71 0 0" sendabspath="1" document="" explorerfilters="*.c;*.cpp;*.h;*.xml;*.txt;*.def" />
 	<recentdir name="C:\dm\imp\rulada\auxes\pkg\ak" />
-	<language value="english" />
+	<language value="russian" />
 	<compilersetting>
 		<DMD path="c:\dm\bin\dmd.exe" />
 		<DMC path="c:\dm\bin\dmc.exe" />
